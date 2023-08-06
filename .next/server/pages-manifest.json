@@ -1,0 +1,14 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/about": "pages/about.html",
+  "/api/hello": "pages/api/hello.js",
+  "/": "pages/index.html",
+  "/inmotion": "pages/inmotion.html",
+  "/sipperscoffeehouse": "pages/sipperscoffeehouse.html",
+  "/stephaniemariefitness": "pages/stephaniemariefitness.html",
+  "/watchit": "pages/watchit.html",
+  "/_error": "pages/_error.js",
+  "/projects2": "pages/projects2.html",
+  "/404": "pages/404.html"
+}
