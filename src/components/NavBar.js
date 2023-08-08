@@ -56,7 +56,7 @@ const NavBar = () => {
             className='w-5 md:w-6 mr-2 md:mr-3'
             ><LinkedInIcon /></motion.a>
 
-            <motion.a href='https://www.linkedin.com/in/stephmdavis1/' target={"_blank"}
+            <motion.a href='https://pin.it/5o2TM65' target={"_blank"}
             whileHover={{y:-2}}
             whileTap={{scale:0.9}}
             className='w-5 md:w-6 mr-1 md:mr-3'

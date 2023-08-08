@@ -43,19 +43,19 @@ const Skills = () => {
     <h5 className='font-semibold text:lg md:mb-14 lg:text-2xl text-center mt-4 text-primary dark:text-light/50'>My Toolbox & Things I Can Do</h5>
     <div className='w-full  lg:mt-28 relative flex items-center justify-center '>
   
-    <Skill name='HTML' x='-6vw' y='0vw' img={img1} />
-    <Skill name='CSS' x='6vw' y='0vw' img={img2} />
-    <Skill name='ReactJS' x='18vw' y='0vw' img={img4} />
-    <Skill name='NodeJS' x='-30vw' y='0vw' img={img5} />
-    <Skill name='NextJS' x='30vw' y='0vw' img={img7} />
-    <Skill name='JavaScript' x='-18vw' y='0vw' img={img3} />
+    <Skill name='HTML' x='-6vw' y='6vw' img={img1} />
+    <Skill name='CSS' x='6vw' y='6vw' img={img2} />
+    <Skill name='ReactJS' x='18vw' y='6vw' img={img4} />
+    <Skill name='NodeJS' x='-30vw' y='6vw' img={img5} />
+    <Skill name='NextJS' x='30vw' y='6vw' img={img7} />
+    <Skill name='JavaScript' x='-18vw' y='6vw' img={img3} />
    
    
-    <Skill name='Tailwind' x='-24vw' y='-10vw' img={img8} />
-    <Skill name='Figma' x='-12vw' y='-10vw' img={img6} />
-    <Skill name='Gatsby' x='0vw' y='-10vw' img={img9}/>
-    <Skill name='Web Design' x='13vw' y='-10vw' img={img10} />
-    <Skill name='Researching' x='27vw' y='-10vw' img={img11}/>
+    <Skill name='Tailwind' x='-24vw' y='-7vw' img={img8} />
+    <Skill name='Figma' x='-12vw' y='-7vw' img={img6} />
+    <Skill name='Gatsby' x='0vw' y='-7vw' img={img9}/>
+    <Skill name='Web Design' x='13vw' y='-7vw' img={img10} />
+    <Skill name='Researching' x='27vw' y='-7vw' img={img11}/>
 
     <Skill name='Git' x='-6vw' y='-20vw' img={img12}/>
     <Skill name='VS Code' x='18vw' y='-20vw' img={img14}/>
@@ -64,8 +64,8 @@ const Skills = () => {
     <Skill name='Firebase' x='30vw' y='-20vw' img={img16}/>
     <Skill name='Responsive Design' x='-22vw' y='-20vw' img={img17} />
 
-    <div className='text-center mt-80 lg:mt-96'>
-    <h5 className='font-semibold text-lg lg:text-2xl text-primary dark:primary '>Currently Working On:</h5>
+    <div className='text-center mt-72 lg:mt-96 '>
+    <h5 className='font-semibold text-lg lg:text-2xl text-primary dark:primary lg:mt-32 '>Currently Working On:</h5>
     <p className='text-sm md:text-lg text-center mt-2 lg:mt-8'>Starting to learn more backend languages starting with Python.</p>
     </div>
     

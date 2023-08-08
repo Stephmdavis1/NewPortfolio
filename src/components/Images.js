@@ -21,7 +21,7 @@ import { motion } from 'framer-motion'
 const Images = () => {
   return (
     <div>
-        <AnimatedText text='Outside of Coding.' className='!text-left mt-8 mb-8 ' />
+        <AnimatedText text='Outside of Coding.' className='!text-left mt-16 md:mt-32 mb-8 ' />
         <h4 className='mb-12 text-sm md:text-lg'>When I'm not coding, I like to spend as much time as I can away from my laptop. Most of my time is spent in the gym, going to plant shops and eating ice cream. Here is a collection of pics I have taken in the past few months. </h4>
         
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4"

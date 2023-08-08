@@ -50,30 +50,30 @@ export default function Home() {
       }}
        >
     
-    <div className='flex flex-col gap-12 ml-2 top-[110px] absolute '>
+    <div className='flex flex-col ml-4 gap-12 top-[110px] absolute inset-0 z-10'>
         
-        <motion.div className='flex flex-col text-center text-[9px] items-center justify-center w-[1.5rem] h-[1.5rem] lg:w-[2.5rem] lg:h-[2.5rem] dark:hidden text-dark cursor-grab'
-            drag
-            dragElastic={1}
-            dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
-            onDragEnd={() => setClicked(true)}
-            whileHover={{ cursor: "grabbing" }}
+        <motion.div className='flex flex-col text-center text-[7px] md:text-[9px] items-center justify-center w-[1rem] h-[1rem] lg:w-[2.5rem] lg:h-[2.5rem] dark:hidden text-dark cursor-pointer'
+            // drag
+            // dragElastic={1}
+            // dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
+            onClick={() => setClicked(true)}
+            whileHover={{ cursor: "pointer" }}
             >
             <Image src={color} alt='color picker' className='pointer-events-none cursor-none ' />
-            Drag Me</motion.div>
+            Click Me</motion.div>
       </div>
 
-      <div className='flex flex-col gap-12 ml-2 top-[190px] absolute '>
+      <div className='flex flex-col gap-12 ml-4 top-[160px] md:top-[190px] absolute inset-0 z-10'>
 
-          <motion.div className='flex flex-col text-center items-center text-[9px] justify-center w-[1.5rem] h-[1.5rem] lg:w-[2.5rem] lg:h-[2.5rem] dark:hidden text-dark cursor-pointer shadow-sm'
-            drag
-            dragElastic={1}
-            dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
-            onDragEnd={() => setClicked(false)}
-            whileHover={{ cursor: "grabbing" }}
+          <motion.div className='flex flex-col text-center items-center text-[7px] md:text-[9px] justify-center w-[1rem] h-[1rem] lg:w-[2.5rem] lg:h-[2.5rem] dark:hidden text-dark cursor-pointer shadow-sm'
+            // drag
+            // dragElastic={1}
+            // dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
+            onClick={() => setClicked(false)}
+            whileHover={{ cursor: "pointer" }}
             >
             <Image src={eraser} alt='magic eraser' className='pointer-events-none cursor-none'/>
-            Drag To Reset
+            Click To Reset
         </motion.div>
       </div>
         
@@ -81,9 +81,9 @@ export default function Home() {
          
 
         
-       <Layout className='p-10 lg:p-20 m-10 md:m-25 lg:m-36 relative'>
+       <Layout className='w-full '>
       
-        <motion.div className="flex items-center justify-between h-80 w-full cursor-none  dark:!text-light dark:!bg-dark"
+        <motion.div className="flex flex-col md:flex-row items-center justify-between cursor-none  dark:!text-light dark:!bg-dark relative z-0"
          animate={{ backgroundColor: isClicked ? colors : bgColor }}
          transition={{ 
           repeat: Infinity,
@@ -100,17 +100,17 @@ export default function Home() {
         }}
           >
         
-            <Image src={profilePic} alt='developer' className='lg:w-full lg:h-full pointer-events-none cursor-none pt-8 md:pt-16 lg:pt-8 ' />
+            <Image src={profilePic} alt='developer' className='lg:w-[85%] lg:h-[85%] pt-8 md:pt-0 pointer-events-none cursor-none  ' />
           </motion.div>
           
 
-          <div className='w-1/2 flex flex-col items-center self-center'>
+          <div className='mx-8 md:w-1/2 md:ml-0 flex flex-col items-center self-center'>
             
-            <AnimatedText text={`Hi, I'm Stephanie. A Front End Web Designer`} className='!text-2xl md:text-3xl xl:!text-5xl !text-left mt-6'/>
-            <p className='my-4 mx-2 lg:my-4 text-xs md:text-md lg:text-lg font-medium'>
+            <AnimatedText text={`Hi, I'm Stephanie. A Front End Web Designer`} className='!text-3xl md:!text-5xl text-center md:!text-left '/>
+            <p className='my-4 mx-2 lg:my-4 text-xs md:text-md lg:text-lg font-medium text-center md:text-left'>
             As a designer I strive to strongly focus on building solutions that users actually want, and to create beautiful, functional UI's.
             </p>
-            <div className='flex items-center self-start'>
+            <div className='flex items-center md:self-start'>
               <Link href='/StephanieDavisResume.pdf' target={'_blank'} className='flex items-center mb-8 lg:mb-10 bg-dark text-light p-1.5 lg:p-2 px-6 rounded-lg text-xs lg:text-lg font-semibold hover:bg-light hover:text-dark border-solid border-transparent hover:border-dark border-2 dark:hover:bg-dark dark:hover:text-light dark:hover:border-light dark:bg-light dark:text-dark'
               download={true}
               >Resume 
