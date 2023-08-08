@@ -100,7 +100,7 @@ export default function Home() {
         }}
           >
         
-            <Image src={profilePic} alt='developer' className='w-[38rem] h-[28rem] md:w-[45rem] md:h-[40rem] lg:w-full lg:h-[45rem] pointer-events-none cursor-none pt-8 md:pt-16 lg:pt-8 ' />
+            <Image src={profilePic} alt='developer' className='lg:w-full lg:h-full pointer-events-none cursor-none pt-8 md:pt-16 lg:pt-8 ' />
           </motion.div>
           
 
