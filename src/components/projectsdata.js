@@ -5,6 +5,7 @@ import IMG10 from '../../public/images/projects/watchit-nobg.png'
 import IMG11 from '../../public/images/projects/salon99mockup-nobg.png'
 import IMG12 from '../../public/images/projects/portfolio-nobg.png'
 import IMG13 from '../../public/images/projects/linkedin-nobg.png'
+import IMG14 from '../../public/images/projects/randomquote.png'
 
 
 
@@ -81,6 +82,7 @@ export const WebProjects = [
     {
         id: 5,
         title: 'Salon 99',
+        summary: 'Salon 99 is on a mission—to offer hair services and products in a welcoming environment, with a focus on promoting and supporting inclusion and the well-being of our customers, employees and community' ,
         img: IMG11,
         link: 'https://stephmdavis1.github.io/Salon-99/'
     },
@@ -95,7 +97,8 @@ export const WebProjects = [
     {
         id: 6,
         title: 'Random Quote Generator',
-        // img: IMG12,
+        img: IMG14,
+        summary: 'Get inspired with this online tool that will generate random motivational quotes including uplifting quotes, inspirational quotes, and interesting quotes.',
         link: 'https://github.com/Stephmdavis1/RandomQuoteGenerator.git',
         github: 'https://github.com/Stephmdavis1/RandomQuoteGenerator.git'
     },
@@ -119,6 +122,7 @@ export const UXCaseStudies = [
         id: 1,
         title: 'Sippers Coffeehouse',
         img: IMG7,
+        summary: `"We believe in coffee that tastes incredible." Sippers Coffeehouse is an independent coffee shop, specializing in custom orders. For the coffeehouse brand, I was approached by the founder to create a website for the company. The ask consisted of building a website that showed the vision of the brand, while depicting what was being sold.`,
         link:  "/sipperscoffeehouse",
         casestudy: "/sipperscoffeehouse"
     },
@@ -126,6 +130,7 @@ export const UXCaseStudies = [
         id: 2,
         title: 'In Motion',
         img: IMG8,
+        summary: '"Making an impact on the world through fitness." Charity based gyms are starting a revolution and they have been rapidly growing over the last 8 years. This app has the purpose of allowing people to not only change their own lives, but also the lives of others.',
         link: '/inmotion',
         casestudy: '/inmotion'
     },
@@ -133,6 +138,7 @@ export const UXCaseStudies = [
         id: 3,
         title: 'Stephanie Marie Fitness App',
         img: IMG9,
+        summary: '"A personal training app that empowers users to reach their fitness goals." After the pandemic, consumers started taking charge of their health more than before. However, due to unavailability of proper workout plans, user are finding it challenging to increase their fitness levels.',
         link: '/stephaniemariefitness',
         casestudy: '/stephaniemariefitness'
     },
@@ -140,6 +146,7 @@ export const UXCaseStudies = [
         id: 4,
         title: 'Watch It',
         img: IMG10,
+        summary: '"A smart watch task app that focuses on helping you to complete your tasks." Get more done with Watch It. Manage, capture, edit and have fun fro anywhere, at anytime, with to-dos that synch across all your devices. This will help you get task done - faster.',
         link: '/watchit',
         casestudy: '/watchit'
     }
