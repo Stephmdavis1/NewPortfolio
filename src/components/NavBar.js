@@ -83,7 +83,7 @@ const NavBar = () => {
 
 
 
-        <div className='absolute left-[10%] md:left-[50%] top-2 translate-x-[-50%]'>
+        <div className='absolute left-[10%] md:left-[50%] top-3 translate-x-[-50%]'>
             <Logo />
         </div>
     </header>

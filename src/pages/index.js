@@ -50,29 +50,29 @@ export default function Home() {
       }}
        >
     
-    <div className='flex flex-col ml-4 gap-12 top-[110px] absolute inset-0 z-10'>
+    <div className='flex flex-col ml-11 gap-12 top-[140px] absolute inset-0 z-10'>
         
-        <motion.div className='flex flex-col text-center text-[7px] md:text-[9px] items-center justify-center w-[1rem] h-[1rem] lg:w-[2.5rem] lg:h-[2.5rem] dark:hidden text-dark cursor-pointer'
+        <motion.div className='flex flex-col text-center text-[7px] md:text-[9px] items-center justify-center w-[1.5rem] h-[1.5rem] lg:w-[2.5rem] lg:h-[2.5rem] dark:hidden text-dark cursor-pointer'
             // drag
             // dragElastic={1}
             // dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
             onClick={() => setClicked(true)}
             whileHover={{ cursor: "pointer" }}
             >
-            <Image src={color} alt='color picker' className='pointer-events-none cursor-none ' />
+            <Image src={color} alt='color picker' className='pointer-events-none cursor-none m-1' />
             Click Me</motion.div>
       </div>
 
-      <div className='flex flex-col gap-12 ml-4 top-[160px] md:top-[190px] absolute inset-0 z-10'>
+      <div className='flex flex-col gap-12 ml-11 top-[210px] md:top-[190px] absolute inset-0 z-10'>
 
-          <motion.div className='flex flex-col text-center items-center text-[7px] md:text-[9px] justify-center w-[1rem] h-[1rem] lg:w-[2.5rem] lg:h-[2.5rem] dark:hidden text-dark cursor-pointer shadow-sm'
+          <motion.div className='flex flex-col text-center items-center text-[7px] md:text-[9px] justify-center w-[1.5rem] h-[1.5rem] lg:w-[2.5rem] lg:h-[2.5rem] dark:hidden text-dark cursor-pointer shadow-sm'
             // drag
             // dragElastic={1}
             // dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
             onClick={() => setClicked(false)}
             whileHover={{ cursor: "pointer" }}
             >
-            <Image src={eraser} alt='magic eraser' className='pointer-events-none cursor-none'/>
+            <Image src={eraser} alt='magic eraser' className='pointer-events-none cursor-none m-1'/>
             Click To Reset
         </motion.div>
       </div>
