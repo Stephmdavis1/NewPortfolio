@@ -27,7 +27,7 @@ const NavBar = () => {
     const[mode, setMode] = useThemeSwitcher();
 
   return (
-    <header className='w-full px-4 sm:px-10 lg:px-32 py-4 md:py-8 text-xs md:text-lg font-medium flex items-center justify-between dark:text-light'>
+    <header className='w-full px-4 pl-48 md:px-10 lg:px-32 py-6 md:py-8 text-xs md:text-lg font-medium flex items-center justify-between dark:text-light'>
         <nav>
             <CustomLink href='/' title='Home' className='mr-2 sm:mr-4' />
             <CustomLink href='/about' title="About" className='mx-2 sm:mx-4' />
@@ -83,7 +83,7 @@ const NavBar = () => {
 
 
 
-        <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
+        <div className='absolute left-[10%] md:left-[50%] top-2 translate-x-[-50%]'>
             <Logo />
         </div>
     </header>

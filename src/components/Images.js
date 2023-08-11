@@ -29,46 +29,46 @@ const Images = () => {
         >
             <div class="grid gap-4">
             <div>
-                <Image class="h-96 max-w-full rounded-lg hover:scale-105" src={image1} alt="" />
+                <Image class="w-64 h-82 md:h-96 md:w-[20rem] max-w-full rounded-lg hover:scale-105" src={image1} alt="titan" />
             </div>
             <div>
-            <Image class="96 max-w-full rounded-lg hover:scale-105" src={image2} alt="" />
+            <Image class="h-82 md:h-96 max-w-full rounded-lg hover:scale-105" src={image2} alt="epcot" />
         </div>
         <div>
-            <Image class="h-96 max-w-full rounded-lg hover:scale-105" src={image3} alt="" />
-        </div>
-    </div>
-    <div class="grid gap-4">
-        <div>
-            <Image class="h-96 max-w-full rounded-lg hover:scale-105" src={image4} alt="" />
-        </div>
-        <div>
-            <Image class="h-96 max-w-full rounded-lg hover:scale-105" src={image12} alt=""/>
-        </div>
-        <div>
-            <Image class="h-96 max-w-full rounded-lg hover:scale-105 top-0" src={image6} alt="" />
+            <Image class="h-96 max-w-full rounded-lg hover:scale-105" src={image3} alt="sunset" />
         </div>
     </div>
     <div class="grid gap-4">
         <div>
-            <Image class="h-h-[30rem] max-w-full rounded-lg hover:scale-105" src={image7} alt=""/>
+            <Image class="h-82 md:h-96 max-w-full rounded-lg hover:scale-105" src={image4} alt="plantstore" />
         </div>
         <div>
-            <Image class="h-96 max-w-full rounded-lg hover:scale-105" src={image8} alt="" />
+            <Image class="h-96 max-w-full rounded-lg hover:scale-105" src={image12} alt="sunrise"/>
         </div>
         <div>
-            <Image class="h-96 max-w-full rounded-lg hover:scale-105" src={image9} alt=""/>
+            <Image class="h-82 md:h-96 w-[18rem] max-w-full rounded-lg hover:scale-105" src={image6} alt="ace" />
         </div>
     </div>
     <div class="grid gap-4">
         <div>
-            <Image class="h-96 max-w-full rounded-lg hover:scale-105" src={image10} alt=""/>
+            <Image class="h-h-[30rem] max-w-full rounded-lg hover:scale-105" src={image7} alt="candle"/>
         </div>
         <div>
-            <Image class="h-96 max-w-full rounded-lg hover:scale-105" src={image11} alt=""/>
+            <Image class="h-96 max-w-full rounded-lg hover:scale-105" src={image8} alt="babygeese" />
         </div>
         <div>
-            <Image class="h-96 max-w-full rounded-lg hover:scale-105" src={image5} alt=""/>
+            <Image class="h-96 max-w-full rounded-lg hover:scale-105" src={image9} alt="islandtrail"/>
+        </div>
+    </div>
+    <div class="grid gap-4">
+        <div>
+            <Image class="h-96 max-w-full rounded-lg hover:scale-105" src={image10} alt="plantstore2"/>
+        </div>
+        <div>
+            <Image class="h-96 max-w-full rounded-lg hover:scale-105" src={image11} alt="castle"/>
+        </div>
+        <div>
+            <Image class="h-96 max-w-full rounded-lg hover:scale-105" src={image5} alt="onthetown"/>
         </div>
     </div>
 </div>

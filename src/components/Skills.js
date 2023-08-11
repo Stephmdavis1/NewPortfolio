@@ -41,12 +41,12 @@ const Skills = () => {
     <>
     <h2 className='font-bold text-7xl lg:text-8xl mt-16 lg:mt-22 w-full text-center'>Skills</h2>
     <h5 className='font-semibold text:lg md:mb-14 lg:text-2xl text-center mt-4 text-primary dark:text-light/50'>My Toolbox & Things I Can Do</h5>
-    <div className='w-full  lg:mt-28 relative flex items-center justify-center '>
+    <div className='w-full lg:mt-28 relative flex items-center justify-center'>
   
     <Skill name='HTML' x='-6vw' y='6vw' img={img1} />
     <Skill name='CSS' x='6vw' y='6vw' img={img2} />
     <Skill name='ReactJS' x='18vw' y='6vw' img={img4} />
-    <Skill name='NodeJS' x='-30vw' y='6vw' img={img5} />
+    <Skill name='NodeJS' x='-32vw' y='6vw' img={img5} />
     <Skill name='NextJS' x='30vw' y='6vw' img={img7} />
     <Skill name='JavaScript' x='-18vw' y='6vw' img={img3} />
    
@@ -55,13 +55,13 @@ const Skills = () => {
     <Skill name='Figma' x='-12vw' y='-7vw' img={img6} />
     <Skill name='Gatsby' x='0vw' y='-7vw' img={img9}/>
     <Skill name='Web Design' x='13vw' y='-7vw' img={img10} />
-    <Skill name='Researching' x='27vw' y='-7vw' img={img11}/>
+    <Skill name='Researching' x='30vw' y='-7vw' img={img11}/>
 
-    <Skill name='Git' x='-6vw' y='-20vw' img={img12}/>
-    <Skill name='VS Code' x='18vw' y='-20vw' img={img14}/>
+    <Skill name='Git' x='-8vw' y='-20vw' img={img12}/>
+    <Skill name='VS Code' x='21vw' y='-20vw' img={img14}/>
     <Skill name='Adobe Studio' x='6vw' y='-20vw' img={img15}/>
-    <Skill name='Github' x='-38vw' y='-20vw' img={img13}/>
-    <Skill name='Firebase' x='30vw' y='-20vw' img={img16}/>
+    <Skill name='Github' x='-40vw' y='-20vw' img={img13}/>
+    <Skill name='Firebase' x='33vw' y='-20vw' img={img16}/>
     <Skill name='Responsive Design' x='-22vw' y='-20vw' img={img17} />
 
     <div className='text-center mt-72 lg:mt-96 '>

@@ -99,7 +99,7 @@ export const WebProjects = [
         title: 'Random Quote Generator',
         img: IMG14,
         summary: 'Get inspired with this online tool that will generate random motivational quotes including uplifting quotes, inspirational quotes, and interesting quotes.',
-        link: 'https://github.com/Stephmdavis1/RandomQuoteGenerator.git',
+        link: ' https://stephmdavis1.github.io/RandomQuoteGenerator/',
         github: 'https://github.com/Stephmdavis1/RandomQuoteGenerator.git'
     },
     // {
