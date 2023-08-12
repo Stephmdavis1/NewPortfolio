@@ -50,7 +50,7 @@ export default function Home() {
       }}
        >
     
-    <div className='flex flex-col ml-11 gap-12 top-[140px] absolute inset-0 z-10'>
+    <div className='flex flex-col ml-10 md:ml:5 gap-12 top-[140px] lg:top-[160px] absolute inset-0 z-10'>
         
         <motion.div className='flex flex-col text-center text-[7px] md:text-[9px] items-center justify-center w-[1.5rem] h-[1.5rem] lg:w-[2.5rem] lg:h-[2.5rem] dark:hidden text-dark cursor-pointer'
             // drag
@@ -63,7 +63,7 @@ export default function Home() {
             Click Me</motion.div>
       </div>
 
-      <div className='flex flex-col gap-12 ml-11 top-[210px] md:top-[190px] absolute inset-0 z-10'>
+      <div className='flex flex-col gap-12 ml-10 md:ml:5 top-[210px] lg:top-[260px] md:top-[220px] absolute inset-0 z-10'>
 
           <motion.div className='flex flex-col text-center items-center text-[7px] md:text-[9px] justify-center w-[1.5rem] h-[1.5rem] lg:w-[2.5rem] lg:h-[2.5rem] dark:hidden text-dark cursor-pointer shadow-sm'
             // drag

@@ -1,7 +1,7 @@
 import { DragControls, motion } from "framer-motion";
 
 
-export default function ProjectList({ id, title, imageUrl, img, casestudy, link, active, summary, setSelected}) {
+export default function ProjectList({ id, title, imageUrl, img, link, active, summary, setSelected}) {
     
 
     return (
@@ -24,7 +24,7 @@ export default function ProjectList({ id, title, imageUrl, img, casestudy, link,
             {link}
             {imageUrl}
             {summary}
-            {casestudy}
+            
         </motion.li>
     );
 }

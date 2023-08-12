@@ -126,9 +126,7 @@ export const projects2 = ({type, title, summary, img, link, github, casestudy}) 
                                         <div className=' bg-dark text-light text-sm border rounded-lg px-1 py-2 text-center w-24 shadow-md border-none'>
                                             <a href={d.link}  target='_blank'>Link</a>
                                         </div>
-                                        <div className=' bg-dark text-light text-sm border rounded-lg px-1 py-2  text-center ml-4 w-24 shadow-md border-none'>
-                                            <a href={d.casestudy}  target='_blank'>Casestudy</a>
-                                        </div>
+                        
                                     </div>
                                 </div> 
                             </article>
