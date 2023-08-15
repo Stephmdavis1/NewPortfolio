@@ -32,7 +32,7 @@ const NavBar = () => {
             <CustomLink href='/' title='Home' className='mr-2 sm:mr-4' />
             <CustomLink href='/about' title="About" className='mx-2 sm:mx-4' />
             <CustomLink href='/projects2' title='Projects' className='mx-2 sm:mx-4'/>
-            <CustomLink href='/sipperscoffeehouse' title='Sippers Coffeehouse Case Study' className='ml-4 hidden' />
+            <CustomLink href='/sipperscoffeehouse2' title='Sippers Coffeehouse Case Study' className='ml-4 hidden' />
             <CustomLink href='/stephaniemariefitness' title='Stephanie Marie Fitness App Case Study' className='ml-4 hidden' />
             <CustomLink href='/watchit' title='Watch It Case Study' className='ml-4 hidden' />
             <CustomLink href='/inmotion' title='In Motion Case Study' className='ml-4 hidden' />

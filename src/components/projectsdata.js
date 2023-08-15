@@ -1,12 +1,13 @@
 import IMG7 from '../../public/images/projects/sipperscover3-nobg.png'
 import IMG8 from '../../public/images/projects/Group44.png'
-import IMG9 from '../../public/images/projects/smf-nobg.png'
+import IMG9 from '../../public/images/projects/smf-nobg2.png'
 import IMG10 from '../../public/images/projects/watchit-nobg.png'
 import IMG11 from '../../public/images/projects/salon99mockup-nobg.png'
 import IMG12 from '../../public/images/projects/portfolio-nobg.png'
 import IMG13 from '../../public/images/projects/linkedin-nobg.png'
 import IMG14 from '../../public/images/projects/randomquote.png'
 import IMG15 from '../../public/images/projects/smfdesktop.png'
+import IMG16 from '../../public/images/projects/templemockup.png'
 
 
 
@@ -54,12 +55,12 @@ export const featuredProjects = [
         github: '/watchtit'
     },
     {
-        id: 5,
-        title: 'Salon 99',
-        img: IMG11,
-        summary: 'Salon 99 is on a mission—to offer hair services and products in a welcoming environment, with a focus on promoting and supporting inclusion and the well-being of our customers, employees and community' ,
-        link: 'https://stephmdavis1.github.io/Salon-99/',
-        github: 'https://github.com/Stephmdavis1/Salon-99.git',
+        id: 12,
+        title: 'Temple Gym and Fitness',
+        img: IMG16,
+        summary: 'Temple Gym and Fitness is a company centered around training to become your best self. Temple sought a complete brand redesign involving the responsive website.' ,
+        link: '/temple',
+        github: 'https://templegymandfitness.com',
        
     },
     {
@@ -69,14 +70,6 @@ export const featuredProjects = [
         summary: 'A feature-rich LinkedIn App using React, Tailwind CSS, Firebase Firestore, React Router and Redux. It uses email and password based login credentials as well as realtime database hosting using Firebase Firestore. You can easily create a post and upload it using a live server to the app.', 
         link: 'https://linkedin-clone-e5ade.web.app', 
         github: 'https://github.com/Stephmdavis1/LinkedIn-clone.git'
-    },
-    {
-        id: 11,
-        title: 'Stephanie Marie Fitness Landing Page',
-        img: IMG15,
-        summary: 'Elevate your workouts and level up your routine with my growing library of programs.',
-        link: ' https://stephmdavis1.github.io/Scroll-Website/',
-        github: 'https://github.com/Stephmdavis1/Scroll-Website.git'
     },
 ];
 
@@ -88,6 +81,15 @@ export const WebProjects = [
         summary: 'This was the first version of my portfolio. It was created using React JS, Material UI, Styled-components and it is completely mobile responsive. I enjoyed creating this version but I was still very new to using React and other frameworks.' ,
         link: 'https://stephmarie.com',
         github: 'https://github.com/Stephmdavis1/Portfolio-v1.git',
+    },
+    {
+        id: 12,
+        title: 'Temple Gym and Fitness',
+        img: IMG16,
+        summary: 'Temple Gym and Fitness is a company centered around training to become your best self. Temple sought a complete brand redesign involving the responsive website.' ,
+        link: '/temple',
+        github: 'https://templegymandfitness.com',
+       
     },
     {
         id: 5,
@@ -168,7 +170,16 @@ export const UXCaseStudies = [
         summary: '"A smart watch task app that focuses on helping you to complete your tasks." Get more done with Watch It. Manage, capture, edit and have fun fro anywhere, at anytime, with to-dos that synch across all your devices. This will help you get task done - faster.',
         link: '/watchit',
         github: '/watchit'
-    }
+    },
+    {
+        id: 12,
+        title: 'Temple Gym and Fitness',
+        img: IMG16,
+        summary: 'Temple Gym and Fitness is a company centered around training to become your best self. Temple sought a complete brand redesign involving the responsive website.' ,
+        link: '/temple',
+        github: 'https://templegymandfitness.com',
+       
+    },
 ];
 
 // export const AnimeProjects = [
