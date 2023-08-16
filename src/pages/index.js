@@ -111,7 +111,7 @@ export default function Home() {
             As a designer I strive to strongly focus on building solutions that users actually want, and to create beautiful, functional UI's.
             </p>
             <div className='flex items-center md:self-start'>
-              <Link href='/StephanieDavisResume.pdf' target={'_blank'} className='flex items-center mb-8 lg:mb-10 bg-dark text-light p-1.5 lg:p-2 px-6 rounded-lg text-xs lg:text-lg font-semibold hover:bg-light hover:text-dark border-solid border-transparent hover:border-dark border-2 dark:hover:bg-dark dark:hover:text-light dark:hover:border-light dark:bg-light dark:text-dark'
+              <Link href='/StephanieDavisResume.FRONTEND.pdf' target={'_blank'} className='flex items-center mb-8 lg:mb-10 bg-dark text-light p-1.5 lg:p-2 px-6 rounded-lg text-xs lg:text-lg font-semibold hover:bg-light hover:text-dark border-solid border-transparent hover:border-dark border-2 dark:hover:bg-dark dark:hover:text-light dark:hover:border-light dark:bg-light dark:text-dark'
               download={true}
               >Resume 
               
